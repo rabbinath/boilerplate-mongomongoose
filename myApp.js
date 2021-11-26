@@ -22,7 +22,6 @@ const createAndSavePerson = (done) => {
     if (err) return console.error(err);
     done(null, data)
   });
-
   
 };
 var arrayOfPeople=[{name: "TOM", age: 22, favoriteFoods: ["birds", "fish", "burgur"]} ,
